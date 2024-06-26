@@ -1,0 +1,42 @@
+body {
+   
+    background-color: bisque;
+    font-family: fantasy;
+    color: rgb(7, 0, 133);
+    
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 10px rgb(7, 0, 133) solid;
+    width: 700px;
+    height: 150px;
+    
+}
+
+
+#btnReestablecer{
+    background-color: rgb(7, 0, 133);
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+
+#contadorVisitas{
+    flex-wrap: wrap;
+    color: red;
+    justify-content: center;
+    align-items: center;
+}
